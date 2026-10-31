@@ -1,0 +1,505 @@
+{
+  "_note": "Trimester-wise plan for PGDM Batch 2025-27. Year 1 courses and dates are OFFICIAL (Student Handbook Annexure I A/I B, trimester calendars). Year 2 courses and Trimester V/VI dates are AUGMENTED/TENTATIVE (knowledge base PRG-024 to PRG-029, CAL-008, CAL-009).",
+  "programmes": {
+    "PGDM-BDA": {
+      "name": "PGDM (Big Data Analytics)",
+      "trimesters": [
+        {
+          "trimester": "I",
+          "year": 1,
+          "start": "2025-08-01",
+          "end": "2025-10-11",
+          "mid_term": "2025-09-15 to 2025-09-18",
+          "end_term": "2025-10-07 to 2025-10-11",
+          "status": "OFFICIAL",
+          "kb": [
+            "B.4.2",
+            "H.1.1"
+          ],
+          "credits": 21,
+          "courses": [
+            [
+              "Data Analysis using SQL",
+              3
+            ],
+            [
+              "Express, Impress, Managers Impact",
+              3
+            ],
+            [
+              "Fundamentals of Finance",
+              3
+            ],
+            [
+              "Professional Communicative English - I",
+              3
+            ],
+            [
+              "Python for Data Science",
+              3
+            ],
+            [
+              "Statistics for Data Analytics using Excel",
+              3
+            ],
+            [
+              "Project - I",
+              3
+            ]
+          ]
+        },
+        {
+          "trimester": "II",
+          "year": 1,
+          "start": "2025-10-29",
+          "end": "2026-01-06",
+          "mid_term": "2025-12-01 to 2025-12-03",
+          "end_term": "2026-01-01 to 2026-01-06",
+          "status": "OFFICIAL",
+          "kb": [
+            "B.4.3",
+            "H.1.2"
+          ],
+          "credits": 24,
+          "courses": [
+            [
+              "Advanced Statistics",
+              3
+            ],
+            [
+              "Cloud Computing",
+              3
+            ],
+            [
+              "Data Exploration & Visualisation using Python",
+              3
+            ],
+            [
+              "Enterprise Data Visualisation",
+              3
+            ],
+            [
+              "HR Analytics",
+              3
+            ],
+            [
+              "Introduction to Big Data Analytics",
+              3
+            ],
+            [
+              "SIP Preparation",
+              3
+            ],
+            [
+              "Project - II",
+              3
+            ]
+          ]
+        },
+        {
+          "trimester": "III",
+          "year": 1,
+          "start": "2026-01-19",
+          "end": "2026-03-28",
+          "mid_term": "2026-02-19 to 2026-02-21",
+          "end_term": "2026-03-23 to 2026-03-28",
+          "status": "OFFICIAL",
+          "kb": [
+            "B.4.4",
+            "H.1.3"
+          ],
+          "credits": 18,
+          "courses": [
+            [
+              "Data Driven Decision Making",
+              3
+            ],
+            [
+              "Introduction to Machine Learning",
+              3
+            ],
+            [
+              "Python Essentials for Machine Learning",
+              3
+            ],
+            [
+              "Entrepreneurship Essentials",
+              3
+            ],
+            [
+              "Summer Internship Program",
+              6
+            ]
+          ],
+          "note": "Followed by the Summer Internship (typically 5 months, SIP Policy)."
+        },
+        {
+          "trimester": "IV",
+          "year": 2,
+          "start": "2026-09-02",
+          "end": "2026-11-04",
+          "mid_term": "2026-10-05 to 2026-10-06",
+          "end_term": "2026-10-31",
+          "status": "DATES OFFICIAL, COURSES AUGMENTED",
+          "kb": [
+            "B.4.5",
+            "H.1.4"
+          ],
+          "credits": 21,
+          "courses": [
+            [
+              "Statistical Learning",
+              3
+            ],
+            [
+              "Data Warehousing & Data Mining",
+              3
+            ],
+            [
+              "NoSQL Database",
+              3
+            ],
+            [
+              "Deep Learning",
+              3
+            ],
+            [
+              "Marketing Management",
+              3
+            ],
+            [
+              "Time Series & Forecasting Techniques",
+              3
+            ],
+            [
+              "Project - IV",
+              3
+            ]
+          ],
+          "note": "Diwali vacation 2026-11-05 to 2026-11-14 after the trimester."
+        },
+        {
+          "trimester": "V",
+          "year": 2,
+          "start": "2026-11-17",
+          "end": "2027-02-05",
+          "mid_term": "2026-12-21 to 2026-12-23",
+          "end_term": "2027-02-01 to 2027-02-05",
+          "status": "START DATE OFFICIAL, REST TENTATIVE",
+          "kb": [
+            "B.4.6",
+            "H.1.5"
+          ],
+          "credits": 21,
+          "courses": [
+            [
+              "Business Analytics, Intelligence & Forecasting",
+              3
+            ],
+            [
+              "Social Media & Social Network Analytics",
+              3
+            ],
+            [
+              "Natural Language Processing for Business",
+              3
+            ],
+            [
+              "Analytical Insights into Networking, Cyber Security & Fraud Detection",
+              3
+            ],
+            [
+              "Image Processing using Python",
+              3
+            ],
+            [
+              "Blockchain Technology & Cyber Terrorism",
+              3
+            ],
+            [
+              "Project - V",
+              3
+            ]
+          ]
+        },
+        {
+          "trimester": "VI",
+          "year": 2,
+          "start": "2027-02-08",
+          "end": "2027-05-28",
+          "mid_term": "Capstone mid-term review 2027-04-05 to 2027-04-06",
+          "end_term": "Capstone presentations and viva 2027-05-17 to 2027-05-21",
+          "status": "TENTATIVE (programme end May 2027 is official)",
+          "kb": [
+            "B.4.7",
+            "H.1.6"
+          ],
+          "credits": 15,
+          "courses": [
+            [
+              "Industrial Capstone Project",
+              12
+            ],
+            [
+              "Capstone Seminar & Viva",
+              3
+            ]
+          ],
+          "note": "Capstone report due 2027-05-10; convocation tentatively June 2027."
+        }
+      ]
+    },
+    "PGDM-AIDS": {
+      "name": "PGDM (Artificial Intelligence & Data Science)",
+      "trimesters": [
+        {
+          "trimester": "I",
+          "year": 1,
+          "start": "2025-08-01",
+          "end": "2025-10-11",
+          "mid_term": "2025-09-15 to 2025-09-18",
+          "end_term": "2025-10-07 to 2025-10-11",
+          "status": "OFFICIAL",
+          "kb": [
+            "B.4.8",
+            "H.1.1"
+          ],
+          "credits": 24,
+          "courses": [
+            [
+              "Data Analysis using SQL",
+              3
+            ],
+            [
+              "Express, Impress, Managers Impact",
+              3
+            ],
+            [
+              "Professional Communicative English - I",
+              3
+            ],
+            [
+              "Introduction to AI",
+              3
+            ],
+            [
+              "Management Principles",
+              3
+            ],
+            [
+              "Python for Data Science",
+              3
+            ],
+            [
+              "Statistics for AI & DS",
+              3
+            ],
+            [
+              "Project - I",
+              3
+            ]
+          ]
+        },
+        {
+          "trimester": "II",
+          "year": 1,
+          "start": "2025-10-29",
+          "end": "2026-01-06",
+          "mid_term": "2025-12-01 to 2025-12-03",
+          "end_term": "2026-01-01 to 2026-01-06",
+          "status": "OFFICIAL",
+          "kb": [
+            "B.4.9",
+            "H.1.2"
+          ],
+          "credits": 21,
+          "courses": [
+            [
+              "Cloud Computing",
+              3
+            ],
+            [
+              "Data Exploration & Visualisation using Python",
+              3
+            ],
+            [
+              "Introduction to Machine Learning",
+              3
+            ],
+            [
+              "Introduction to Big Data Analytics",
+              3
+            ],
+            [
+              "Image Processing using Python",
+              3
+            ],
+            [
+              "SIP Preparation",
+              3
+            ],
+            [
+              "Project - II",
+              3
+            ]
+          ]
+        },
+        {
+          "trimester": "III",
+          "year": 1,
+          "start": "2026-01-19",
+          "end": "2026-03-28",
+          "mid_term": "2026-02-19 to 2026-02-21",
+          "end_term": "2026-03-23 to 2026-03-28",
+          "status": "OFFICIAL",
+          "kb": [
+            "B.4.10",
+            "H.1.3"
+          ],
+          "credits": 21,
+          "courses": [
+            [
+              "Introduction to Generative AI & Prompt Engineering",
+              3
+            ],
+            [
+              "MLOps and AI Deployment",
+              3
+            ],
+            [
+              "Deep Learning",
+              3
+            ],
+            [
+              "Data Driven Decision Making",
+              3
+            ],
+            [
+              "Project - III",
+              3
+            ],
+            [
+              "Summer Internship Program",
+              6
+            ]
+          ],
+          "note": "Followed by the Summer Internship (typically 5 months, SIP Policy)."
+        },
+        {
+          "trimester": "IV",
+          "year": 2,
+          "start": "2026-09-02",
+          "end": "2026-11-04",
+          "mid_term": "2026-10-05 to 2026-10-06",
+          "end_term": "2026-10-31",
+          "status": "DATES OFFICIAL, COURSES AUGMENTED",
+          "kb": [
+            "B.4.11",
+            "H.1.4"
+          ],
+          "credits": 21,
+          "courses": [
+            [
+              "Natural Language Processing",
+              3
+            ],
+            [
+              "Computer Vision",
+              3
+            ],
+            [
+              "Data Engineering",
+              3
+            ],
+            [
+              "Gen-AI & Large Language Models",
+              3
+            ],
+            [
+              "Statistical Learning",
+              3
+            ],
+            [
+              "Reinforcement Learning",
+              3
+            ],
+            [
+              "Project - IV",
+              3
+            ]
+          ],
+          "note": "Diwali vacation 2026-11-05 to 2026-11-14 after the trimester."
+        },
+        {
+          "trimester": "V",
+          "year": 2,
+          "start": "2026-11-17",
+          "end": "2027-02-05",
+          "mid_term": "2026-12-21 to 2026-12-23",
+          "end_term": "2027-02-01 to 2027-02-05",
+          "status": "START DATE OFFICIAL, REST TENTATIVE",
+          "kb": [
+            "B.4.12",
+            "H.1.5"
+          ],
+          "credits": 21,
+          "courses": [
+            [
+              "Robotic Process Automation (RPA) & Intelligent Automation",
+              3
+            ],
+            [
+              "Speech Recognition & Conversational AI",
+              3
+            ],
+            [
+              "Internet of Things (IoT) & Edge AI",
+              3
+            ],
+            [
+              "Data Intelligence and Analytics",
+              3
+            ],
+            [
+              "AI Ethics, Governance & Responsible AI",
+              3
+            ],
+            [
+              "Business Management",
+              3
+            ],
+            [
+              "Project - V",
+              3
+            ]
+          ]
+        },
+        {
+          "trimester": "VI",
+          "year": 2,
+          "start": "2027-02-08",
+          "end": "2027-05-28",
+          "mid_term": "Capstone mid-term review 2027-04-05 to 2027-04-06",
+          "end_term": "Capstone presentations and viva 2027-05-17 to 2027-05-21",
+          "status": "TENTATIVE (programme end May 2027 is official)",
+          "kb": [
+            "B.4.13",
+            "H.1.6"
+          ],
+          "credits": 15,
+          "courses": [
+            [
+              "Industrial Capstone Project",
+              12
+            ],
+            [
+              "Capstone Seminar & Viva",
+              3
+            ]
+          ],
+          "note": "Capstone report due 2027-05-10; convocation tentatively June 2027."
+        }
+      ]
+    }
+  }
+}

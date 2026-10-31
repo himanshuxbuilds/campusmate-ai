@@ -1,0 +1,214 @@
+{
+ "name": "held-out benchmark (written independently of the index)",
+ "note": "expect=null means the handbook does not cover it and NOTHING should be retrieved",
+ "cases": [
+  {
+   "query": "I tried to pay my installment but the website kept erroring out. What now?",
+   "expect": [
+    "F.2.2"
+   ]
+  },
+  {
+   "query": "How much extra do I pay if I'm three weeks late with tuition?",
+   "expect": [
+    "F.3.1",
+    "F.3.2"
+   ]
+  },
+  {
+   "query": "What happens if I don't pay anything for two months?",
+   "expect": [
+    "F.3.3",
+    "F.3.5"
+   ]
+  },
+  {
+   "query": "Minimum percentage of classes I must attend?",
+   "expect": [
+    "D.1.1"
+   ]
+  },
+  {
+   "query": "How do I ask for my result to be re-checked?",
+   "expect": [
+    "D.3.1"
+   ]
+  },
+  {
+   "query": "I failed a course, can I retake it?",
+   "expect": [
+    "D.3.2"
+   ]
+  },
+  {
+   "query": "What CGPA do I need to graduate?",
+   "expect": [
+    "D.3.3"
+   ]
+  },
+  {
+   "query": "Which things am I forbidden to carry into the exam room?",
+   "expect": [
+    "E.1.2"
+   ]
+  },
+  {
+   "query": "What's the penalty if I get caught copying in an exam?",
+   "expect": [
+    "E.2.1"
+   ]
+  },
+  {
+   "query": "Can I use ChatGPT for my assignments?",
+   "expect": [
+    "D.5.1"
+   ]
+  },
+  {
+   "query": "Is there a scholarship for women?",
+   "expect": [
+    "G.1.5"
+   ]
+  },
+  {
+   "query": "How do I keep my scholarship after the first year?",
+   "expect": [
+    "G.2.3"
+   ]
+  },
+  {
+   "query": "What does 'on hold' mean for my scholarship?",
+   "expect": [
+    "G.2.2"
+   ]
+  },
+  {
+   "query": "Where can I get a bonafide letter?",
+   "expect": [
+    "D.4.2"
+   ]
+  },
+  {
+   "query": "How many books can I borrow from the library and what is the late fine?",
+   "expect": [
+    "K.1.3"
+   ]
+  },
+  {
+   "query": "Is there a hospital close to the campus for emergencies?",
+   "expect": [
+    "K.4.1"
+   ]
+  },
+  {
+   "query": "Can I bring my mobile phone into class?",
+   "expect": [
+    "J.2.1"
+   ]
+  },
+  {
+   "query": "What is the punishment for ragging?",
+   "expect": [
+    "J.3.1"
+   ]
+  },
+  {
+   "query": "What are the hostel curfew and visitor rules?",
+   "expect": [
+    "L.1.3",
+    "L.2.2"
+   ]
+  },
+  {
+   "query": "How long will the program office take to respond to my ticket?",
+   "expect": [
+    "M.1.2"
+   ]
+  },
+  {
+   "query": "My complaint wasn't resolved. Who do I escalate to?",
+   "expect": [
+    "M.1.3",
+    "M.2.1"
+   ]
+  },
+  {
+   "query": "Who can look at my student record besides me?",
+   "expect": [
+    "N.1.1"
+   ]
+  },
+  {
+   "query": "Why do I have to wait for approval to change my bank account?",
+   "expect": [
+    "N.1.2"
+   ]
+  },
+  {
+   "query": "How do I withdraw from the programme and what do I get back?",
+   "expect": [
+    "F.4.1"
+   ]
+  },
+  {
+   "query": "Can I claim my refundable deposit back, and when?",
+   "expect": [
+    "F.1.5"
+   ]
+  },
+  {
+   "query": "What documents must I bring at registration?",
+   "expect": [
+    "O.1.2"
+   ]
+  },
+  {
+   "query": "How do I get my college wifi login?",
+   "expect": [
+    "K.2.2"
+   ]
+  },
+  {
+   "query": "Is it okay to switch from BDA to AI and DS?",
+   "expect": [
+    "D.4.1"
+   ]
+  },
+  {
+   "query": "What dress code do I need to follow on campus?",
+   "expect": [
+    "J.2.4"
+   ]
+  },
+  {
+   "query": "How is my CGPA converted to a percentage?",
+   "expect": [
+    "D.2.3"
+   ]
+  },
+  {
+   "query": "What is the process for requesting a course change?",
+   "expect": [
+    "D.4.1"
+   ]
+  },
+  {
+   "query": "How do I request permission to be absent from classes?",
+   "expect": [
+    "D.1.2"
+   ]
+  },
+  {
+   "query": "What's the cafeteria menu today?",
+   "expect": null
+  },
+  {
+   "query": "Who won the cricket world cup?",
+   "expect": null
+  },
+  {
+   "query": "How do I apply for a visa to Canada?",
+   "expect": null
+  }
+ ]
+}

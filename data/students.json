@@ -1,0 +1,494 @@
+{
+  "_note": "Fictional seed data for the AIDTM Student Support Agent. No credentials are stored here: demo passwords live in app/services/seed_service.py and are created only in development.",
+  "students": [
+    {
+      "student_id": "S2025AI001",
+      "name": "Aarav Mehta",
+      "programme": "PGDM-AIDS",
+      "programme_name": "PGDM (Artificial Intelligence & Data Science)",
+      "batch": "2025-27",
+      "current_trimester": "IV",
+      "email": "aarav.mehta@student.aidtm.ac.in",
+      "mobile": "+91 98XXX 11001",
+      "address": "Hostel Block A, Room 214, AIDTM Campus, Gandhinagar",
+      "hosteller": true,
+      "year1_cgpa": 3.21,
+      "attendance_current_trimester_pct": 84,
+      "refund_bank_account_masked": "HDFC Bank ****4417",
+      "fees": {
+        "total_tuition": 1000000,
+        "caution_deposit": 50000,
+        "scholarship_adjustment_total": 100000,
+        "installments": [
+          {
+            "name": "Registration fee",
+            "due_date": "2025-05-30",
+            "amount": 200000,
+            "status": "PAID",
+            "paid_on": "2025-05-28",
+            "late_fee": 0
+          },
+          {
+            "name": "1st installment",
+            "due_date": "2025-07-15",
+            "amount": 250000,
+            "status": "PAID",
+            "paid_on": "2025-07-14",
+            "late_fee": 0,
+            "note": "includes INR 50,000 caution deposit; scholarship adjustment INR 25,000"
+          },
+          {
+            "name": "2nd installment",
+            "due_date": "2026-01-15",
+            "amount": 200000,
+            "status": "PAID",
+            "paid_on": "2026-01-15",
+            "late_fee": 0,
+            "note": "scholarship adjustment INR 25,000"
+          },
+          {
+            "name": "3rd installment",
+            "due_date": "2026-07-15",
+            "amount": 200000,
+            "status": "PAID",
+            "paid_on": "2026-07-25",
+            "late_fee": 1000,
+            "late_fee_paid": true,
+            "note": "paid 10 days late; scholarship adjustment INR 25,000"
+          },
+          {
+            "name": "4th installment",
+            "due_date": "2027-01-15",
+            "amount": 200000,
+            "status": "PENDING",
+            "paid_on": null,
+            "late_fee": 0,
+            "note": "scholarship adjustment INR 25,000 will apply"
+          }
+        ]
+      },
+      "scholarship": {
+        "type": "Merit Scholarship at Admission (Tier 1)",
+        "status": "APPROVED",
+        "amount_total": 100000,
+        "amount_adjusted": 75000,
+        "amount_remaining": 25000,
+        "notes": "INR 25,000 adjusted against each of the four installments. Continuation requires CGPA >= 2.60, no F/I grade and no disciplinary action.",
+        "applied_on": "2025-05-10",
+        "decided_on": "2025-05-20"
+      },
+      "support_requests": [
+        {
+          "id": "SR-2026-0041",
+          "category": "Library",
+          "subject": "Overdue fine query for Deep Learning textbook",
+          "status": "RESOLVED",
+          "created_on": "2026-09-18",
+          "updated_on": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "student_id": "S2025AI002",
+      "name": "Ishita Rao",
+      "programme": "PGDM-AIDS",
+      "programme_name": "PGDM (Artificial Intelligence & Data Science)",
+      "batch": "2025-27",
+      "current_trimester": "IV",
+      "email": "ishita.rao@student.aidtm.ac.in",
+      "mobile": "+91 98XXX 11002",
+      "address": "12, Satellite Road, Ahmedabad 380015",
+      "hosteller": false,
+      "year1_cgpa": 3.62,
+      "attendance_current_trimester_pct": 92,
+      "refund_bank_account_masked": "ICICI Bank ****2290",
+      "fees": {
+        "total_tuition": 1000000,
+        "caution_deposit": 50000,
+        "scholarship_adjustment_total": 75000,
+        "installments": [
+          {
+            "name": "Registration fee",
+            "due_date": "2025-05-30",
+            "amount": 200000,
+            "status": "PAID",
+            "paid_on": "2025-05-25",
+            "late_fee": 0
+          },
+          {
+            "name": "1st installment",
+            "due_date": "2025-07-15",
+            "amount": 250000,
+            "status": "PAID",
+            "paid_on": "2025-07-10",
+            "late_fee": 0,
+            "note": "includes INR 50,000 caution deposit"
+          },
+          {
+            "name": "2nd installment",
+            "due_date": "2026-01-15",
+            "amount": 200000,
+            "status": "PAID",
+            "paid_on": "2026-01-12",
+            "late_fee": 0
+          },
+          {
+            "name": "3rd installment",
+            "due_date": "2026-07-15",
+            "amount": 200000,
+            "status": "PAID",
+            "paid_on": "2026-07-15",
+            "late_fee": 0,
+            "note": "Academic Excellence Scholarship adjustment INR 37,500"
+          },
+          {
+            "name": "4th installment",
+            "due_date": "2027-01-15",
+            "amount": 200000,
+            "status": "PENDING",
+            "paid_on": null,
+            "late_fee": 0,
+            "note": "Academic Excellence Scholarship adjustment INR 37,500 will apply"
+          }
+        ]
+      },
+      "scholarship": {
+        "type": "Academic Excellence Scholarship (Year 2, Rank 1)",
+        "status": "ADJUSTED",
+        "amount_total": 75000,
+        "amount_adjusted": 37500,
+        "amount_remaining": 37500,
+        "notes": "Awarded for Rank 1 by Year 1 CGPA (3.62). Adjusted against the 3rd and 4th installments.",
+        "applied_on": null,
+        "decided_on": "2026-08-20"
+      },
+      "support_requests": []
+    },
+    {
+      "student_id": "S2025AI003",
+      "name": "Rohan Desai",
+      "programme": "PGDM-AIDS",
+      "programme_name": "PGDM (Artificial Intelligence & Data Science)",
+      "batch": "2025-27",
+      "current_trimester": "IV",
+      "email": "rohan.desai@student.aidtm.ac.in",
+      "mobile": "+91 98XXX 11003",
+      "address": "Hostel Block B, Room 108, AIDTM Campus, Gandhinagar",
+      "hosteller": true,
+      "year1_cgpa": 2.48,
+      "attendance_current_trimester_pct": 68,
+      "refund_bank_account_masked": "SBI ****7731",
+      "fees": {
+        "total_tuition": 1000000,
+        "caution_deposit": 50000,
+        "scholarship_adjustment_total": 0,
+        "installments": [
+          {
+            "name": "Registration fee",
+            "due_date": "2025-05-30",
+            "amount": 200000,
+            "status": "PAID",
+            "paid_on": "2025-05-29",
+            "late_fee": 0
+          },
+          {
+            "name": "1st installment",
+            "due_date": "2025-07-15",
+            "amount": 250000,
+            "status": "PAID",
+            "paid_on": "2025-07-15",
+            "late_fee": 0,
+            "note": "includes INR 50,000 caution deposit"
+          },
+          {
+            "name": "2nd installment",
+            "due_date": "2026-01-15",
+            "amount": 200000,
+            "status": "PAID",
+            "paid_on": "2026-02-05",
+            "late_fee": 2800,
+            "late_fee_paid": true,
+            "note": "paid 21 days late"
+          },
+          {
+            "name": "3rd installment",
+            "due_date": "2026-07-15",
+            "amount": 200000,
+            "status": "OVERDUE",
+            "paid_on": null,
+            "late_fee": null,
+            "note": "unpaid; beyond 6 weeks since 26 Aug 2026 - exam/lecture bar applies"
+          },
+          {
+            "name": "4th installment",
+            "due_date": "2027-01-15",
+            "amount": 200000,
+            "status": "PENDING",
+            "paid_on": null,
+            "late_fee": 0
+          }
+        ]
+      },
+      "scholarship": {
+        "type": "Need-Based Financial Assistance",
+        "status": "UNDER_REVIEW",
+        "amount_total": null,
+        "amount_adjusted": 0,
+        "amount_remaining": null,
+        "notes": "Application received 12 Dec 2025 for the January 2026 cycle; income certificate pending verification.",
+        "applied_on": "2025-12-12",
+        "decided_on": null
+      },
+      "support_requests": [
+        {
+          "id": "SR-2026-0057",
+          "category": "Fees & Payments",
+          "subject": "Request for installment extension",
+          "status": "CLOSED",
+          "created_on": "2026-08-01",
+          "updated_on": "2026-08-03",
+          "resolution": "No extension possible under Late Fees Policy; advised to clear dues immediately."
+        }
+      ]
+    },
+    {
+      "student_id": "S2025BD001",
+      "name": "Priya Nair",
+      "programme": "PGDM-BDA",
+      "programme_name": "PGDM (Big Data Analytics)",
+      "batch": "2025-27",
+      "current_trimester": "IV",
+      "email": "priya.nair@student.aidtm.ac.in",
+      "mobile": "+91 98XXX 21001",
+      "address": "Hostel Block C, Room 305, AIDTM Campus, Gandhinagar",
+      "hosteller": true,
+      "year1_cgpa": 3.08,
+      "attendance_current_trimester_pct": 79,
+      "refund_bank_account_masked": "Axis Bank ****5120",
+      "fees": {
+        "total_tuition": 1000000,
+        "caution_deposit": 50000,
+        "scholarship_adjustment_total": 50000,
+        "installments": [
+          {
+            "name": "Registration fee",
+            "due_date": "2025-05-30",
+            "amount": 200000,
+            "status": "PAID",
+            "paid_on": "2025-05-30",
+            "late_fee": 0
+          },
+          {
+            "name": "1st installment",
+            "due_date": "2025-07-15",
+            "amount": 250000,
+            "status": "PAID",
+            "paid_on": "2025-07-12",
+            "late_fee": 0,
+            "note": "includes INR 50,000 caution deposit"
+          },
+          {
+            "name": "2nd installment",
+            "due_date": "2026-01-15",
+            "amount": 200000,
+            "status": "PAID",
+            "paid_on": "2026-01-14",
+            "late_fee": 0,
+            "note": "Women in Data & AI Scholarship adjustment INR 25,000"
+          },
+          {
+            "name": "3rd installment",
+            "due_date": "2026-07-15",
+            "amount": 200000,
+            "status": "PAID",
+            "paid_on": "2026-07-16",
+            "late_fee": 100,
+            "late_fee_paid": false,
+            "note": "paid 1 day late; Women in Data & AI adjustment INR 25,000"
+          },
+          {
+            "name": "4th installment",
+            "due_date": "2027-01-15",
+            "amount": 200000,
+            "status": "PENDING",
+            "paid_on": null,
+            "late_fee": 0
+          }
+        ]
+      },
+      "scholarship": {
+        "type": "Women in Data & AI Scholarship",
+        "status": "ADJUSTED",
+        "amount_total": 50000,
+        "amount_adjusted": 50000,
+        "amount_remaining": 0,
+        "notes": "Fully adjusted against the 2nd and 3rd installments.",
+        "applied_on": "2025-11-05",
+        "decided_on": "2025-12-01"
+      },
+      "support_requests": []
+    },
+    {
+      "student_id": "S2025BD002",
+      "name": "Kabir Shah",
+      "programme": "PGDM-BDA",
+      "programme_name": "PGDM (Big Data Analytics)",
+      "batch": "2025-27",
+      "current_trimester": "IV",
+      "email": "kabir.shah@student.aidtm.ac.in",
+      "mobile": "+91 98XXX 21002",
+      "address": "Hostel Block A, Room 118, AIDTM Campus, Gandhinagar",
+      "hosteller": true,
+      "year1_cgpa": 2.91,
+      "attendance_current_trimester_pct": 88,
+      "refund_bank_account_masked": "Kotak Bank ****9034",
+      "fees": {
+        "total_tuition": 1000000,
+        "caution_deposit": 50000,
+        "scholarship_adjustment_total": 0,
+        "installments": [
+          {
+            "name": "Registration fee",
+            "due_date": "2025-05-30",
+            "amount": 200000,
+            "status": "PAID",
+            "paid_on": "2025-05-27",
+            "late_fee": 0
+          },
+          {
+            "name": "1st installment",
+            "due_date": "2025-07-15",
+            "amount": 250000,
+            "status": "PAID",
+            "paid_on": "2025-07-15",
+            "late_fee": 0,
+            "note": "includes INR 50,000 caution deposit"
+          },
+          {
+            "name": "2nd installment",
+            "due_date": "2026-01-15",
+            "amount": 200000,
+            "status": "PAID",
+            "paid_on": "2026-01-15",
+            "late_fee": 0
+          },
+          {
+            "name": "3rd installment",
+            "due_date": "2026-07-15",
+            "amount": 200000,
+            "status": "PAID",
+            "paid_on": "2026-07-15",
+            "late_fee": 0,
+            "note": "paid by education loan disbursement"
+          },
+          {
+            "name": "4th installment",
+            "due_date": "2027-01-15",
+            "amount": 200000,
+            "status": "PENDING",
+            "paid_on": null,
+            "late_fee": 0,
+            "note": "education loan tranche expected"
+          }
+        ]
+      },
+      "scholarship": {
+        "type": null,
+        "status": "NONE",
+        "amount_total": 0,
+        "amount_adjusted": 0,
+        "amount_remaining": 0,
+        "notes": "No scholarship held. Eligible to apply for Need-Based Financial Assistance by 15 Dec 2026 for the January 2027 cycle.",
+        "applied_on": null,
+        "decided_on": null
+      },
+      "support_requests": [
+        {
+          "id": "SR-2026-0063",
+          "category": "Certificates & Documents",
+          "subject": "Fee demand letter for education loan tranche",
+          "status": "IN_PROGRESS",
+          "created_on": "2026-10-20",
+          "updated_on": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "student_id": "S2025BD003",
+      "name": "Neha Iyer",
+      "programme": "PGDM-BDA",
+      "programme_name": "PGDM (Big Data Analytics)",
+      "batch": "2025-27",
+      "current_trimester": "IV",
+      "email": "neha.iyer@student.aidtm.ac.in",
+      "mobile": "+91 98XXX 21003",
+      "address": "45, Sector 7, Gandhinagar 382007",
+      "hosteller": false,
+      "year1_cgpa": 3.35,
+      "attendance_current_trimester_pct": 95,
+      "refund_bank_account_masked": "HDFC Bank ****6612",
+      "fees": {
+        "total_tuition": 1000000,
+        "caution_deposit": 50000,
+        "scholarship_adjustment_total": 50000,
+        "installments": [
+          {
+            "name": "Registration fee",
+            "due_date": "2025-05-30",
+            "amount": 200000,
+            "status": "PAID",
+            "paid_on": "2025-05-22",
+            "late_fee": 0
+          },
+          {
+            "name": "1st installment",
+            "due_date": "2025-07-15",
+            "amount": 250000,
+            "status": "PAID",
+            "paid_on": "2025-07-08",
+            "late_fee": 0,
+            "note": "includes INR 50,000 caution deposit; Merit Tier 2 adjustment INR 12,500"
+          },
+          {
+            "name": "2nd installment",
+            "due_date": "2026-01-15",
+            "amount": 200000,
+            "status": "PAID",
+            "paid_on": "2026-01-09",
+            "late_fee": 0,
+            "note": "Merit Tier 2 adjustment INR 12,500"
+          },
+          {
+            "name": "3rd installment",
+            "due_date": "2026-07-15",
+            "amount": 200000,
+            "status": "PAID",
+            "paid_on": "2026-07-13",
+            "late_fee": 0,
+            "note": "Merit Tier 2 adjustment INR 12,500"
+          },
+          {
+            "name": "4th installment",
+            "due_date": "2027-01-15",
+            "amount": 200000,
+            "status": "PENDING",
+            "paid_on": null,
+            "late_fee": 0,
+            "note": "Merit Tier 2 adjustment INR 12,500 will apply"
+          }
+        ]
+      },
+      "scholarship": {
+        "type": "Merit Scholarship at Admission (Tier 2)",
+        "status": "APPROVED",
+        "amount_total": 50000,
+        "amount_adjusted": 37500,
+        "amount_remaining": 12500,
+        "notes": "INR 12,500 adjusted against each installment.",
+        "applied_on": "2025-05-08",
+        "decided_on": "2025-05-20"
+      },
+      "support_requests": []
+    }
+  ]
+}

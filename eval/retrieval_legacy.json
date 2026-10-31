@@ -1,0 +1,318 @@
+{
+ "name": "legacy benchmark (written alongside the index; NOT independent)",
+ "note": "cases with verbatim_in_index=true are word-for-word copies of questions stored in the index, so scores on this set overstate real retrieval quality",
+ "cases": [
+  {
+   "query": "What is my current fee status?",
+   "programme": null,
+   "expected": "F.2.3",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "The payment portal failed. Can I pay on the next working day?",
+   "programme": null,
+   "expected": "F.2.2",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "minimum attendance to sit end term exam",
+   "programme": null,
+   "expected": "D.1.1",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "how much late fee if I pay 20 days late",
+   "programme": null,
+   "expected": "F.3.2",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "hostel fees",
+   "programme": null,
+   "expected": "L.1.2",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "library timings",
+   "programme": null,
+   "expected": "K.1.1",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "scholarship application deadline",
+   "programme": null,
+   "expected": "G.1.4",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "can I change my elective",
+   "programme": null,
+   "expected": "D.4.1",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "what subjects in trimester 4 AI DS",
+   "programme": "PGDM-AIDS",
+   "expected": "B.4.11",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "what subjects are in semester 2",
+   "programme": "PGDM-BDA",
+   "expected": "B.4.3",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "what are the subjects of BDA trimester 5",
+   "programme": "PGDM-AIDS",
+   "expected": "B.4.6",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "what is taught in deep learning",
+   "programme": null,
+   "expected": "C.1.11",
+   "verbatim_in_index": true
+  },
+  {
+   "query": "who teaches python for data science",
+   "programme": null,
+   "expected": "C.1.4",
+   "verbatim_in_index": true
+  },
+  {
+   "query": "tell me everything about scholarships",
+   "programme": null,
+   "expected": "G.0",
+   "verbatim_in_index": true
+  },
+  {
+   "query": "explain all exam rules",
+   "programme": null,
+   "expected": "E.0",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "tell me everything about fees",
+   "programme": null,
+   "expected": "F.0",
+   "verbatim_in_index": true
+  },
+  {
+   "query": "can I use chatgpt for my assignment",
+   "programme": null,
+   "expected": "D.5.1",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "what is the full form of PPO",
+   "programme": null,
+   "expected": "X.1.2",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "how do I get a bonafide certificate",
+   "programme": null,
+   "expected": "D.4.2",
+   "verbatim_in_index": true
+  },
+  {
+   "query": "what is the mess timing",
+   "programme": null,
+   "expected": "L.1.4",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "when is convocation",
+   "programme": null,
+   "expected": "H.1.6",
+   "verbatim_in_index": true
+  },
+  {
+   "query": "how many interviews do I get in placement",
+   "programme": null,
+   "expected": "I.3.1",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "what happens if I am caught cheating",
+   "programme": null,
+   "expected": "E.2.1",
+   "verbatim_in_index": true
+  },
+  {
+   "query": "what is the ambulance number",
+   "programme": null,
+   "expected": "K.4.1",
+   "verbatim_in_index": true
+  },
+  {
+   "query": "can I get a refund if I leave",
+   "programme": null,
+   "expected": "F.4.1",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "what is the punishment for ragging",
+   "programme": null,
+   "expected": "J.3.1",
+   "verbatim_in_index": true
+  },
+  {
+   "query": "how do I reset my wifi password",
+   "programme": null,
+   "expected": "K.2.2",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "what is the women scholarship",
+   "programme": null,
+   "expected": "G.1.5",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "when does trimester 5 end",
+   "programme": "PGDM-AIDS",
+   "expected": "H.1.5",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "what are the EPAAA modules",
+   "programme": null,
+   "expected": "C.6.1",
+   "verbatim_in_index": true
+  },
+  {
+   "query": "what is the bridge course",
+   "programme": null,
+   "expected": "O.1.4",
+   "verbatim_in_index": true
+  },
+  {
+   "query": "which documents are needed for an education loan",
+   "programme": null,
+   "expected": "F.2.4",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "what is the grading scale",
+   "programme": null,
+   "expected": "D.2.2",
+   "verbatim_in_index": true
+  },
+  {
+   "query": "what is the hostel in time",
+   "programme": null,
+   "expected": "L.1.3",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "what is the late fee per day",
+   "programme": null,
+   "expected": "F.3.1",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "is the PGDM AICTE approved",
+   "programme": null,
+   "expected": "A.1.1",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "who is the dean",
+   "programme": null,
+   "expected": "A.2.3",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "can I sit for placement after getting placed",
+   "programme": null,
+   "expected": "I.3.3",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "what is an I grade",
+   "programme": null,
+   "expected": "D.2.4",
+   "verbatim_in_index": true
+  },
+  {
+   "query": "what is the fine for losing hall ticket",
+   "programme": null,
+   "expected": "F.4.2",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "what is the Program Office phone number",
+   "programme": null,
+   "expected": "A.2.1",
+   "verbatim_in_index": true
+  },
+  {
+   "query": "how do I appeal my grade",
+   "programme": null,
+   "expected": "D.3.1",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "what if I fail a subject",
+   "programme": null,
+   "expected": "D.3.2",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "what do I need to graduate",
+   "programme": null,
+   "expected": "D.3.3",
+   "verbatim_in_index": true
+  },
+  {
+   "query": "how do I raise a ticket",
+   "programme": null,
+   "expected": "M.1.1",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "is there a counsellor on campus",
+   "programme": null,
+   "expected": "M.3.1",
+   "verbatim_in_index": true
+  },
+  {
+   "query": "how do I report sexual harassment",
+   "programme": null,
+   "expected": "M.2.4",
+   "verbatim_in_index": true
+  },
+  {
+   "query": "can my parents see my grades",
+   "programme": null,
+   "expected": "N.1.1",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "how do I change my registered mobile number",
+   "programme": null,
+   "expected": "N.1.2",
+   "verbatim_in_index": false
+  },
+  {
+   "query": "how many books can I borrow",
+   "programme": null,
+   "expected": "K.1.3",
+   "verbatim_in_index": true
+  },
+  {
+   "query": "What is the cafeteria menu today?",
+   "programme": null,
+   "expected": null,
+   "verbatim_in_index": false
+  },
+  {
+   "query": "What is the weather in Gandhinagar tomorrow?",
+   "programme": null,
+   "expected": null,
+   "verbatim_in_index": false
+  }
+ ]
+}

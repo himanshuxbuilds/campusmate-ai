@@ -1,0 +1,4 @@
+-r requirements.txt
+# Test dependencies (httpx is required by FastAPI's TestClient)
+pytest==9.2.0
+httpx==0.28.1
